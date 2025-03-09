@@ -3,7 +3,7 @@
 import React from 'react'
 
 function Toggle() {
-    // ...
+ 
     const [likes, setLikes] = React.useState(0);
    
     function handleClick() {
@@ -12,8 +12,10 @@ function Toggle() {
    
     return (
       <div>
-        {/* ... */}
-        <button onClick={handleClick}>Likes ({likes})</button>
+      
+        <button type="button" onClick={handleClick}>Likes ({likes})</button>
+  
+
       </div>
     );
   }
